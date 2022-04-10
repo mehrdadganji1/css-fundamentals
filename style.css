@@ -1,7 +1,11 @@
+h1,
+h2,
+h3 {
+  font-family: fantasy;
+}
 h1 {
   color: navy;
-  font-family: sans-serif;
-  font-size: 25px;
+  font-size: 40px;
   text-transform: uppercase;
   font-weight: bolder;
   text-align: center;
@@ -9,15 +13,13 @@ h1 {
 h2 {
   color: firebrick;
   font-size: 35px;
-  font-family: fantasy;
 }
 h3 {
   color: firebrick;
   font-size: 30px;
-  font-family: fantasy;
 }
 p {
-  color: teal;
+  color: darkslategrey;
   font-size: 17px;
   font-family: sans-serif;
 }
@@ -28,12 +30,38 @@ li {
   color: goldenrod;
   font-size: 18px;
 }
-footer {
+footer p {
   color: black;
   font-size: 12px;
   font-family: sans-serif;
   text-align: center;
 }
-div {
-  align-items: baseline;
+
+#author {
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  /*
+  margin-top: -5%;
+  */
+}
+#copyright {
+  font-style: italic;
+}
+body {
+  background-color: rgba(162, 241, 241, 0.385);
+}
+.description {
+  font-weight: 600;
+}
+.related-posts {
+  list-style: none;
+}
+.main-header {
+  background-color: rgba(138, 200, 255, 0.586);
+}
+aside {
+  background-color: antiquewhite;
+  border-top: 4px solid cadetblue;
+  border-bottom: 4px solid cadetblue;
 }
