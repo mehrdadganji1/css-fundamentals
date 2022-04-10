@@ -1,0 +1,39 @@
+h1 {
+  color: navy;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center;
+}
+h2 {
+  color: firebrick;
+  font-size: 35px;
+  font-family: fantasy;
+}
+h3 {
+  color: firebrick;
+  font-size: 30px;
+  font-family: fantasy;
+}
+p {
+  color: teal;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+li {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+  font-style: oblique;
+  color: goldenrod;
+  font-size: 18px;
+}
+footer {
+  color: black;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-align: center;
+}
+div {
+  align-items: baseline;
+}
