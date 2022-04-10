@@ -2,6 +2,7 @@ h1,
 h2,
 h3 {
   font-family: fantasy;
+  text-align: center;
 }
 h1 {
   color: navy;
@@ -49,7 +50,7 @@ footer p {
   font-style: italic;
 }
 body {
-  background-color: rgba(162, 241, 241, 0.385);
+  background-color: rgb(209, 230, 246);
 }
 .description {
   font-weight: 600;

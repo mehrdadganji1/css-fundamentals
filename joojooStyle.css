@@ -1,0 +1,82 @@
+h1,
+h2 {
+  font-family: fantasy;
+  text-align: center;
+  font-size: 2.5vw;
+  font-weight: 200;
+  color: rgb(163, 40, 40);
+}
+body {
+  background-color: rgb(209, 230, 246);
+}
+.product-img {
+  border-radius: 15px;
+  max-width: 25%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product-description {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 3%;
+  font-size: 1.75vw;
+  color: rgb(46, 2, 78);
+}
+.features {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1.3vw;
+  color: rgb(169, 143, 12);
+  list-style: none;
+}
+.information:link {
+  color: rgb(2, 73, 2);
+  text-decoration: none;
+  font-size: 1.2vw;
+}
+.information:visited {
+  color: rgb(2, 73, 2);
+  text-decoration: none;
+}
+.information:hover {
+  color: rgb(201, 29, 64);
+  text-decoration: underline orangered;
+}
+
+.hyperLink {
+  text-align: center;
+  font-family: fantasy;
+  font-weight: 100;
+  font-size: 1.5vw;
+  text-align: center;
+  margin-top: 2%;
+}
+.price {
+  text-align: center;
+  font-family: fantasy;
+  font-weight: 100;
+  font-size: 2.5vw;
+  text-align: center;
+  margin-top: 2%;
+}
+.shopping-button {
+  border-radius: 8px;
+  font-size: 1.5vw;
+  transition-duration: 0.4s;
+  background-color: #384eba; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  width: 20%;
+}
+.shopping-button:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+.container {
+  text-align: center;
+}
