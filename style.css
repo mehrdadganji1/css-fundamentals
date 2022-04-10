@@ -65,3 +65,25 @@ aside {
   border-top: 4px solid cadetblue;
   border-bottom: 4px solid cadetblue;
 }
+/*
+li:nth-child(odd) {
+  color: chocolate;
+}
+*/
+/* Styling Hyperlinks */
+a:link {
+  color: darkgreen;
+  text-decoration: none;
+}
+a:visited {
+  color: darkgreen;
+  text-decoration: none;
+}
+a:hover {
+  color: crimson;
+  text-decoration: underline orangered;
+  font-weight: bold;
+}
+a:active {
+  background-color: blue;
+}
