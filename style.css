@@ -60,12 +60,16 @@ footer p {
 }
 body {
   background-color: rgb(209, 230, 246);
+  width: 90%;
+  margin: auto;
+  text-align: lefts;
 }
 .description {
   font-weight: 600;
 }
 .related-posts {
   list-style: none;
+  margin-left: 0;
 }
 nav a:link {
   display: inline-block;
@@ -77,7 +81,7 @@ nav a:link {
   background-color: rgba(84, 156, 220, 0.586);
 }
 aside {
-  background-color: antiquewhite;
+  background-color: rgba(246, 243, 239, 0.412);
   border-top: 4px solid cadetblue;
   border-bottom: 4px solid cadetblue;
 }
@@ -102,4 +106,16 @@ a:hover {
 }
 a:active {
   background-color: blue;
+}
+article {
+  float: left;
+  width: 72%;
+}
+aside {
+  margin-top: 10px;
+  float: right;
+  width: 27%;
+}
+footer {
+  clear: both;
 }
